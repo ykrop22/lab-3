@@ -1,0 +1,22 @@
+﻿<Window x:Class="Calc.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calc"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="276.667" Width="478.333">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="117,36,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="141"  Name="txtNumberOne"/>
+        <Label Content="NumOne" HorizontalAlignment="Left" Margin="24,33,0,0" VerticalAlignment="Top" Width="68"/>
+        <TextBox HorizontalAlignment="Left" Height="22" Margin="117,74,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="141" Name="txtNumberTwo"/>
+        <Label Content="NumTwo" HorizontalAlignment="Left" Margin="24,70,0,0" VerticalAlignment="Top" Width="66"/>
+        <Label Content="Result" HorizontalAlignment="Left" Margin="24,111,0,0" VerticalAlignment="Top" Width="50"/>
+        <TextBox HorizontalAlignment="Left" Height="22" Margin="117,111,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="141"  Name="txtResult"/>
+        <Button Content="+" HorizontalAlignment="Left" Margin="89,157,0,0" VerticalAlignment="Top" Width="28" Height="23" Click="BtnSum" RenderTransformOrigin="1.81,0.551"/>
+        <Button Content="-" HorizontalAlignment="Left" Margin="132,157,0,0" VerticalAlignment="Top" Width="28" Height="23" Click="BtnSub" RenderTransformOrigin="1.81,0.551"/>
+        <Button Content="*" HorizontalAlignment="Left" Margin="176,157,0,0" VerticalAlignment="Top" Width="28" Height="23" Click="BtnMul" RenderTransformOrigin="1.81,0.551" />
+        <Button Content="/" HorizontalAlignment="Left" Margin="223,157,0,0" VerticalAlignment="Top" Width="28" Height="23" Click="BtnDiv" RenderTransformOrigin="1.81,0.551" />
+
+    </Grid>
+</Window>
